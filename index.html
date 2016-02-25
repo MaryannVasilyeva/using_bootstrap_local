@@ -4,63 +4,66 @@
 	<title>Using Bootstrap on my own</title>
 	<link rel='stylesheet' href='stylesheets/bootstrap.css'/>
 </head>
-	<body>
+	<body style='background-color: #B8EABB'>
 	  <div>
 		<nav>
-			<ul class="nav nav-pills navbar navbar-inverse">
-			  <li role="presentation" class="active"><a href="#">'does nothing' button</a></li>
-			  <li role="presentation"><a href="#">really...nothing</a></li>
-			  <li role="presentation"><a href="#">Yup, that lame</a></li>
+			<ul class='nav nav-pills navbar navbar-inverse'>
+			  <li role='presentation' class='active'><a href="#"> "Nothing" button </a></li>
+			  <li role='presentation' class='active'><a href="#"> No really...nothing </a></li>
+			  <li role='presentation' class='active'><a href="#"> Yup, that lame </a></li>
 			</ul>
 		</nav>
 	  </div>
-	  <div class='row'>
+	  <div class='row' style='background-color: #186C6C'>
 	  	<div class='col-md-2'><img class='col-xs-12 col-md-6 pull-right' src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Face-grin.svg/2000px-Face-grin.svg.png'/></div>
 	  	<div class='col-md-8'><h1 class='text-uppercase text-center'>how i feel about this course</h1></div>
 	  	<div class='col-md-2'><img class='col-xs-12 col-md-6 pull-left' src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Face-grin.svg/2000px-Face-grin.svg.png'/></div>
+	    <hr></hr>
 	  </div>
-	  <hr></hr>
-	  <div class="row">
-	    <div class="col-md-4"><img class='col-xs 12 col-md-offset-4 col-md-6' src='http://cliparts.co/cliparts/6Tr/ooe/6TrooeX8c.png'/></div>
+	  <div class='row'>
+	    <div class='col-md-4'><img class='col-xs 12 col-md-offset-4 col-md-6' src='http://cliparts.co/cliparts/6Tr/ooe/6TrooeX8c.png'/></div>
 	    <div class='col-md-4'><img class='col-xs-12 col-md-offset-3 col-md-6' src='http://previews.123rf.com/images/dejanj01/dejanj011106/dejanj01110600008/9813421-smiley-bomb-Stock-Vector-face.jpg'/></div>
-	    <div class="col-md-4"><img class='col-xs 12 col-md-offset-2 col-md-6' src='http://api.ning.com/files/J-KLMV9NLF*A61A0idyOONEQBdfwCMieMhE9Cxk6BwWc8A2dfVTNrrpODZh5VTyXaqcmoLDAqjl7jHKx3HWbdgjtjr3Ql6dM/woman_pulling_hair_out.jpg'/></div>
+	    <div class='col-md-4'><img class='col-xs 12 col-md-offset-2 col-md-6' src='http://api.ning.com/files/J-KLMV9NLF*A61A0idyOONEQBdfwCMieMhE9Cxk6BwWc8A2dfVTNrrpODZh5VTyXaqcmoLDAqjl7jHKx3HWbdgjtjr3Ql6dM/woman_pulling_hair_out.jpg'/></div>
 	  </div>
-	  <hr></hr>
-	  <h2 class='text-center'>However if you think about it...<small> there are definitely some benefits.</small></h2>
-	  <hr></hr>
+	  <div style='background-color: #E44235'>
+	    <hr></hr>
+	      <h2 class='text-center'>However if you think about it...<small style='color: black'> there are definitely some benefits.</small></h2>
+	    <hr></hr>
+	  </div>
 	  <table class='table table-hover table-bordered'>
 			<thead>
 				<tr>
-					<th class='col-md-4 info'>Pros</th>
-					<th class='col-md-4 warning'>Cons</th>
-					<th class='col-md-8 success'>And the conclusion</th>
+					<th class='col-md-4 danger'>Pros</th>
+					<th class='col-md-4 danger'>Cons</th>
+					<th class='col-md-8 danger'>And the conclusion</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td>ONLY focusing on programming</td>
-					<td>It's after work, blah</td>
-					<td>Suck it up for 16 weeks!</td>
+					<td class='col-md-4 info'>ONLY focusing on programming</td>
+					<td class='col-md-4 warning'>It's after work, blah</td>
+					<td class='col-md-8 success'>Suck it up for 16 weeks!</td>
 				</tr>
 			</tbody>
 			<tbody>
 				<tr>
-					<td>Learn at lot in 16 weeks</td>
-					<td>Forgot what family and friends are</td>
-					<td>Maybe they'll do me more favors</td>
+					<td class='col-md-4 info'>Learn at lot in 16 weeks</td>
+					<td class='col-md-4 warning'>Forgot what family and friends are</td>
+					<td class='col-md-8 success'>Maybe they'll do me more favors</td>
 				</tr>
 			</tbody>
 			<tbody>
 				<tr>
-					<td>Not be the dumbest in the room</td>
-					<td>Lost...all...the ...time</td>
-					<td>Have the "DUH" moment</td>
+					<td class='col-md-4 info'>Not be the dumbest in the room</td>
+					<td class='col-md-4 warning'>Lost...all...the ...time</td>
+					<td class='col-md-8 success'>Have the "DUH" moment</td>
 				</tr>
 			</tbody>
 		</table>
 		<hr></hr>
 			<div>
-			    <div class='col-xs-12 col-md-2'>
+			<nav class='navbar navbar-inverse navbar-toolbar navbar-fixed-bottom'>
+			    <div class='col-md-offset-* col-xs-12 col-md-2'>
 			      <button class='btn'>Default Button</button>
 			    </div>
 			    <div class='col-xs-12 col-md-2'>
@@ -78,10 +81,11 @@
 			    <div class='col-xs-12 col-md-2'>
 			      <button class='btn btn-warning'>Warning Button</button>
 			    </div>
+			    </nav>
 			</div>
 			<hr></hr>
 			<div>
-			 <h2 class='col-md-12 text-right bg-success'>
+			 <h2 class='col-md-12 text-center bg-primary'>
 			 	And that's the end...
 			 </h2>
 			</div>
